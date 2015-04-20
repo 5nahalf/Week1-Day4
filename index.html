@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset=“utf=8”>
+		<title>Monster Mash!</title>
+		<meta author=“Erik Johnson” content=“Cray cray monsters”>
+		<link href="style.css" rel="stylesheet">
+	</head>
+		<body>
+			<p id="monster">Monster Mash!</p>
+			
+			
+		<form id="stats">
+			<label for="monsters">Name:<input type="text" id="name"></label>
+				<br></br>
+			<label for="strength">Strength:<input type="text" id="strength"></label>
+				<br></br>
+			<label for="dexterity">Dexterity:<input type="text" id="dexterity"></label>
+				<br></br>
+			<label for="constitution">Constitution:<input type="text" id="constitution"></label>
+				<br></br>
+			<label for="wisdom">Wisdom:<input type="text" id="wisdom"></label>
+				<br></br>
+			<label for="intelligence">Intelligence:<input type="text" id="intelligence"></label>
+				<br></br>
+			<label for="charisma">Charisma:<input type="text" id="charisma"></label>
+				<br></br>
+			<label for="playerClass">Player Class (Optional):<input type="text" id="class"></label>
+		</form>
+				<br></br>
+
+
+
+			<button type="button" id="monsterbutton" onclick="addMonster()">Add Player/Monster to Records</button>
+
+<table style="width:75%" id="monsters">
+  <tr>
+    <td>Name</td>
+    <td>Strength</td> 
+    <td>Dexterity</td>
+    <td>Constitution</td>
+    <td>Wisdom</td>
+    <td>Intelligenc</td>
+    <td>Charisma</td>
+    <td>Player Class (Optional)</td>
+  </tr>
+</table>
+
+<script src="script.js"></script>
+		</body>
+</html>
